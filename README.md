@@ -16,3 +16,5 @@ Open your preferred terminal or command prompt and navigate to the directory whe
   - streamlit run LinkedIn_Scraper.py
 
 This command will launch the Streamlit web application, allowing you to interact with the LinkedIn Profile Scraper through your browser.
+
+##### video: https://drive.google.com/file/d/1sZRbhCZ6NZNAAh_Vo8n5Y-M49WXCO9yy/view?usp=sharing
