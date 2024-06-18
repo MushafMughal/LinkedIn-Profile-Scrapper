@@ -13,7 +13,7 @@ Download and install the appropriate browser driver for your version of Chrome. 
 
 ### Run the Script:
 Open your preferred terminal or command prompt and navigate to the directory where the LinkedIn Scraper script (LinkedIn_Scraper.py) is located. Then, execute the following command:
-  - streamlit run LinkedIn_Scraper.py
+  - streamlit run LinkedIn_Scrapper.py
 
 This command will launch the Streamlit web application, allowing you to interact with the LinkedIn Profile Scraper through your browser.
 ![Screenshot 2024-04-21 210505](https://github.com/MushafMughal/LinkedIn-Profile-Scrapper/assets/138291134/54802153-89db-46b0-b324-003756427b3c)
