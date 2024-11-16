@@ -1,3 +1,5 @@
+import pandas as pd
+import streamlit as st
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -9,8 +11,6 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 import time
-import pandas as pd
-import streamlit as st
 import io
 
 
