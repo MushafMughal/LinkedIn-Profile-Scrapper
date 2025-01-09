@@ -1,21 +1,54 @@
-# LinkedIn-Profile-Scrapper
-Are you looking to harness the power of LinkedIn profiles to enrich your data analysis? Introducing the LinkedIn Profile Scraper – a robust tool designed to extract valuable professional insights from GitHub posts effortlessly.
+# LinkedIn-ProfileProspector
+This application, LinkedIn ProfileProspector, is a powerful tool for extracting information from LinkedIn profiles. It is designed to scrape user profiles based on your search query and provides insights such as name, location, tags, and about information. The results are displayed in a tabular format and can be downloaded as an Excel file. User can add or remove any addional insights from the profile.
 
-Our scraper is engineered with precision to gather pertinent information from LinkedIn profiles referenced in GitHub posts, enabling you to unlock a treasure trove of data for your research, recruitment, or market analysis endeavors.
+### Key Features
+ - Automated Login: Log in to LinkedIn with your credentials securely.
+ - Customizable Search: Search for profiles using any keyword or name and select the number of pages to scrape.
+ - Profile Data Extraction: Extract information such as name, location, profile tag, and about section.
+ - Excel Download: Export scraped data to an Excel file for further analysis.
+ - Streamlit Interface: User-friendly interface for easy configuration and operation.
 
-## How to Use:
-To utilize the LinkedIn Profile Scraper, follow these steps:
-### Install Required Packages:
-Ensure you have the latest versions of the Selenium and Streamlit packages installed.
+## Prerequisites
+ - Python 3.7 or later: Ensure Python is installed on your system.
+ - Libraries: Install required Python libraries using the following command:
+  ```bash
+  pip install pandas streamlit selenium openpyxl webdriver-manager
+  ```
+ - Chrome Browser: Make sure Google Chrome is installed.
+ - WebDriver: This script uses webdriver_manager to manage the Chrome WebDriver.
 
-### Install Browser Driver:
-Download and install the appropriate browser driver for your version of Chrome. For example, if you're using Chrome Version 123.0.6312.124 (64-bit), download the corresponding Chrome WebDriver. Ensure the WebDriver is compatible with your operating system.
+## How to Use
+ - Clone or download this repository.
+ - Install the necessary dependencies listed in the requirements.txt file by running ((in terminal)):
+  ```bash
+  pip install -r requirements.txt
+  ```
+ - Run the Streamlit application (in terminal):
+  ```bash
+  streamlit run app.py
+  ```
+ - Provide the required details:
+    - LinkedIn email and password.
+    - The search query or name to scrape.
+    - The number of result pages to scrape.
+ - Click on the Scrape Profiles button to start the process.
+ - View and download the results as an Excel file.
 
-### Run the Script:
-Open your preferred terminal or command prompt and navigate to the directory where the LinkedIn Scraper script (LinkedIn_Scraper.py) is located. Then, execute the following command:
-  - streamlit run LinkedIn_Scrapper.py
+## File Structure
+ - app.py: Main script for the Streamlit interface and scraper functionality.
+ - requirements.txt: List of dependencies to install.
 
-This command will launch the Streamlit web application, allowing you to interact with the LinkedIn Profile Scraper through your browser.
-![Screenshot 2024-04-21 210505](https://github.com/MushafMughal/LinkedIn-Profile-Scrapper/assets/138291134/54802153-89db-46b0-b324-003756427b3c)
+## Important Notes
+ - LinkedIn Policies: Use this tool responsibly and ensure compliance with LinkedIn's terms of service. Excessive scraping may lead to account restrictions or bans.
+ - Login Credentials: Be cautious while providing login credentials. Ensure the security of your account by not sharing your credentials with others.
 
-##### video: https://shorturl.at/fkPW8
+ - Example Output
+   The extracted data will include the following columns:
+    - Name
+    - Location
+    - Tagline
+    - About
+    - Profile URL
+
+## License
+ - This script is provided as-is for educational and non-commercial use. Make sure to comply with all applicable legal and ethical guidelines.
